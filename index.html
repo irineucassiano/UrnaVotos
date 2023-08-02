@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Urna Eletrônica</title>
+</head>
+<body>
+    <header>
+        <h1>Escolha o candidato</h1>
+    </header>
+    <section id="candidatos">
+        <div class="img-cand">
+            <figure class="img-cand">
+                <img src="images/lula.jpg" alt="imagem candidato" id="lula_img">
+                <figcaption>Candidato Lula - Vote 13</figcaption>
+                <img src="images/bolsonaro.jpg" alt="imagem candidato" id="bolsonaro_img">
+                <figcaption>Candidato Bolsonaro - Vote 22</figcaption>
+            </figure>
+        </div>
+        <form action="#" id="form">
+            <div class="voto-usuario" id="voto-usuario">
+                <label for="votoUsuario">Digite o número do candidato:</label>
+                    <input type="number" name="votoUsuario" id="votoUsuario">
+            
+            </div>
+        </form>
+        <div class="botoes">
+            <button type="submit" id="btnEnviar" onclick="verificaVoto()">Votar</button>
+            <button type="reset" id="btnLimpar">Limpar</button>
+            <button id="fim">Vencedor</button>
+        </div>
+        <span id="aviso"></span>
+    </section>
+    <footer>
+        &copy;Irineu Cassiano Neto
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

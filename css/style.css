@@ -1,0 +1,94 @@
+:root{
+    --cor01:#2b2be7;
+    --cor02:#228B22;
+    --cor03:#FFFF00;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #2b2be7, #228B22, #FFFF00);  
+}
+
+
+
+header h1{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+
+/*div imagens dos candidatos*/
+.img-cand{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgb(197, 221, 241);
+    border-radius: 16px;
+    width: 150vh;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.733);
+}
+div.img-cand{
+    background-color: #228B22;
+}
+div.img-cand img{
+    width: 250px;
+    border-radius: 100%;
+}
+
+figure.img-cand figcaption{
+    font:12pt Arial;
+    margin: auto 10px;
+}
+div.voto-usuario{
+    margin: 35px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(197, 221, 241);
+    border-radius: 8px;
+    width: 150vh;
+    height: 25px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.733);
+}
+div.voto-usuario label, input{
+    margin: auto 10px;
+}
+
+div.botoes{
+    margin: 35px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(197, 221, 241);
+    border-radius: 5px;
+    width: 50vh;
+    height: 25px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.733);
+}
+div.botoes button{
+    margin: auto;
+    width: 50px;
+    height: 20px ;
+}
+
+footer{
+    margin-left: 44%;
+}
+span{
+    margin-left: 40%;
+    background-color: white;
+    width: 150px;
+    font: 10pt arial;
+}
