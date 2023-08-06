@@ -92,3 +92,12 @@ span{
     width: 150px;
     font: 10pt arial;
 }
+
+
+/*classes*/
+.vencedor{
+    margin: auto;
+}
+.perdedor{
+    visibility: hidden;
+}
